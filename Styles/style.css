@@ -84,3 +84,54 @@ nav .menu a{
     background-color: transparent;
     color: white;
 }
+.card-container{
+    margin-top: 50px;
+}
+.card-title {
+    text-align: center;
+}
+.card-title h1{
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+}
+.card-title p{
+    font-size: 16px;
+    color: #627382;
+    line-height: 20px;
+    margin-bottom:40px ;
+}
+.card-box{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    max-width: 1340px;
+}
+.card{
+    width: 322px;
+    height: 300px;
+    text-align: center;
+    box-shadow: 0 6px 50px 0 #00000010;
+    border-radius: 5px;
+    padding: 69px 24px;
+}
+.card img{
+    border: 1px solid #f95555;
+    border-radius: 50%;
+    background-color: #f95555;
+    width: 27px;
+    height: 29px;
+    padding: 10px;
+}
+.card h3{
+    font-size: 24px;
+    font-weight: 600;
+    color: #001931;
+    
+}
+.card p{
+    font-size: 16px;
+    color: #627382;
+    line-height: 20px;
+
+}
