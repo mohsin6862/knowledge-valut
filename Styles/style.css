@@ -38,11 +38,24 @@ nav .menu a{
 }
 .banner{
     text-align: center;
-    background-image: url(../assets/hero-bg.png);
+    position: relative;
+    background-image: url("../assets/hero-bg.png");
+    background-size: cover;
+    background-position: center;
+    
+}
+.banner::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
 }
 .banner-container{
     padding:154px ;
     height: 380px;
+     position: relative;
+    z-index: 2;
 }
 .pera{
     font-size: 16px;
