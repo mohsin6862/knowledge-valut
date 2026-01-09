@@ -135,3 +135,50 @@ nav .menu a{
     line-height: 20px;
 
 }
+.second-brain{
+    
+    margin: 0 auto;
+    max-width: 1360px;
+}
+.brain-container{
+    margin-top: 120px;
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+.brain-info{
+    width: 700px;
+}
+.pera3{
+    font-size: 16px;
+    color: #30B868;
+    text-align: left;
+    line-height: 20px;
+}
+.brain-info h2{
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+}
+.pera4{
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+    text-align: left;
+    width: 600px;
+}
+.brain-info ul{
+    text-align: left;
+}
+.pera5{
+    align-items: center;
+}
+.pera5 p {
+    display: flex;
+    align-items: center; 
+    gap: 10px;            
+    color: #001931;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 500;
+}
