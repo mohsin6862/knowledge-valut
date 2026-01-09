@@ -170,9 +170,7 @@ nav .menu a{
 .brain-info ul{
     text-align: left;
 }
-.pera5{
-    align-items: center;
-}
+
 .pera5 p {
     display: flex;
     align-items: center; 
@@ -181,4 +179,30 @@ nav .menu a{
     font-size: 16px;
     line-height: 20px;
     font-weight: 500;
+    margin-top: 10px;
+}
+.think-more{
+    text-align: center;
+    margin: 0 auto;
+    max-width: 1360px;
+    background-color: rgb(240, 230, 230);
+    padding: 80px;
+    border-radius: 5px;
+}
+.think-more h1{
+    color: #001931;
+    font-size: 40;
+    font-weight: bold;
+}
+.think-more p{
+    font-size: 16px;
+    line-height: 24px;
+    color: #acb1b4;
+    margin: 0 auto;
+    max-width: 600px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.bot{
+    margin-bottom: 20px;
 }
