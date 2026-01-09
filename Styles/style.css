@@ -239,3 +239,23 @@ hr{
     border: none;
       border-top: .5px solid #E5E7EB;
 }
+.btn:hover{
+ font-size: 16px;
+    font-weight: 600;
+    background-color: #250c7c;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 16px;
+    color: white;
+    cursor: pointer;
+}
+.btn2:hover{
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #250c7c;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 16px;
+    color: white;
+    cursor: pointer;
+}
